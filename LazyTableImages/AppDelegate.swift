@@ -9,7 +9,7 @@
 
 import UIKit
 
-let TopPaidAppsFeed = "http://phobos.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/toppaidapplications/limit=75/xml"
+let TopPaidAppsFeed = "https://rss.itunes.apple.com/api/v1/us/ios-apps/top-paid/all/50/explicit.atom"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
