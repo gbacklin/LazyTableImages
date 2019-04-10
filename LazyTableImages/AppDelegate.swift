@@ -5,6 +5,8 @@
  Abstract:
  Application delegate for the LazyTableImages sample.
  It also downloads in the background the "Top Paid iPhone Apps" RSS feed using NSURLSession/NSURLSessionDataTask.
+ 
+https://rss.itunes.apple.com/en-us
  */
 
 import UIKit
@@ -22,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // the Operation driving the parsing of the RSS feed
     var parser: ParseOperation?
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         fetchRSSFeed(urlString: TopPaidAppsFeed)
