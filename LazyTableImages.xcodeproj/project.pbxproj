@@ -481,7 +481,7 @@
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = LazyTableImages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.somecompany.LazyTableImages;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LazyTableImages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -496,7 +496,7 @@
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = LazyTableImages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.somecompany.LazyTableImages;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LazyTableImages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,7 +512,7 @@
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = LazyTableImagesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.somecompany.LazyTableImagesTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LazyTableImagesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,7 +529,7 @@
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = LazyTableImagesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.somecompany.LazyTableImagesTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LazyTableImagesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -545,7 +545,7 @@
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = LazyTableImagesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.somecompany.LazyTableImagesUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LazyTableImagesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -561,7 +561,7 @@
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = LazyTableImagesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.somecompany.LazyTableImagesUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LazyTableImagesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
