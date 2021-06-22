@@ -19,12 +19,19 @@ public class RSSReader: ObservableObject {
     var parser: ParseOperation?
 
     init(){
-        load()
+        fetchRSSFeed(urlString: TopPaidAppsFeed)
     }
-    func load() {
+    
+    func load() async {
         debugPrint("Loading...")
         fetchRSSFeed(urlString: TopPaidAppsFeed)
     }
+    
+    func reload() {
+        debugPrint("reloading...")
+        fetchRSSFeed(urlString: TopPaidAppsFeed)
+    }
+    
     func fetchRSSFeed(urlString: String) {
         weak var weakSelf = self
         

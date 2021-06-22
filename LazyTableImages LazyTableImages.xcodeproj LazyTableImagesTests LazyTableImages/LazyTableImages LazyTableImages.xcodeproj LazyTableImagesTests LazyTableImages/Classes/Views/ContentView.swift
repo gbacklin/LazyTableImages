@@ -34,7 +34,7 @@ struct ContentView: View {
                             }
                                 .frame(width: 50, height: 50)
                                 .refreshable {
-                                    reader.load()
+                                    await reader.load()
                                 }
 
                             Text(entry.appName!)
@@ -43,7 +43,7 @@ struct ContentView: View {
                         }
                     }
                     .refreshable {
-                        reader.load()
+                        await reader.load()
                     }
                     .listStyle(.plain)
                 }
@@ -51,7 +51,7 @@ struct ContentView: View {
                 .navigationBarTitle("Top Paid Apps")
                 .navigationBarItems(trailing:
                         Button(action: {
-                    reader.load()
+                    reader.reload()
                         }) {
                             Image(systemName: "arrow.clockwise.circle").imageScale(.large)
                         }
