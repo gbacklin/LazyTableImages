@@ -25,7 +25,6 @@ struct ContentView: View {
                                     image
                                         .resizable()
                                         .scaledToFill()
-                                        .transition(.slide)
                                 case .failure(_):
                                     Color.gray.opacity(0.1)
                                 @unknown default:
