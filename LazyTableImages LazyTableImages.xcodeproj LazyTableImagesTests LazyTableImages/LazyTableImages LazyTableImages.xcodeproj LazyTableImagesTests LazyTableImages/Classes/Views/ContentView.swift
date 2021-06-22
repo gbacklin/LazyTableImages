@@ -26,10 +26,10 @@ struct ContentView: View {
                                         .resizable()
                                         .scaledToFill()
                                 case .failure(_):
-                                    Color.gray.opacity(0.1)
+                                    Color.gray.opacity(0.4)
                                 @unknown default:
-                                    ProgressView()
-                                                        .progressViewStyle(CircularProgressViewStyle(tint: .gray))                            }
+                                    Color.red.opacity(0.1)
+                                }
                             }
                                 .frame(width: 50, height: 50)
                                 .refreshable {
